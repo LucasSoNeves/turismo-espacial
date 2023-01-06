@@ -27,6 +27,7 @@ header ul li {
     margin: 10px -10px;
     padding: 30px 50px;
     display: inline-block;
+    cursor: pointer;
 }
 
 header ul li:last-child {
@@ -83,4 +84,16 @@ main h1 {
     width: 500px;
     color: lightgray;
     text-align: justify;
+}
+
+#explorar {
+    float: right;
+    font-size: 50px;
+    padding: 90px 0px 90px 0px;
+    margin-right: 300px;
+    margin-top: -200px;
+    border-radius: 360px;
+    border: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
 }
