@@ -124,7 +124,7 @@ main h1 {
     color: white;
 }
 
-#marte, #Lua {
+#marte, #Lua, #Europa {
     margin-top: 100px;
     margin-left: 300px;
 }
@@ -137,11 +137,11 @@ main h1 {
     color: lightgray;
 }
 
-#nomeDosDestino, #nomeDosDestinoLua {
+#nomeDosDestino, #nomeDosDestinoLua, #nomeDosDestinoEuropa {
     font-size: 30px;
 }
 
-#nomeDosDestino ul li, #nomeDosDestinoLua ul li {
+#nomeDosDestino ul li, #nomeDosDestinoLua ul li, #nomeDosDestinoEuropa ul li {
     display: inline-block;
     margin: 20px;
     margin-top: 100px;
@@ -151,34 +151,34 @@ main h1 {
     margin-right: 400px;
 }
 
-#tituloMarte, #tituloLua {
+#tituloMarte, #tituloLua, #tituloEuropa {
     font-size: 120px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 25px;
     margin-left: 30px;
 }
 
-#descricaoParaMarte, #descricaoParaLua {
+#descricaoParaMarte, #descricaoParaLua, #descricaoParaEuropa {
     font-size: 30px;
     width: 600px;
     text-align: justify;
     margin-left: 25px;
 }
 
-#linhaDeMarte, #linhaDeLua {
+#linhaDeMarte, #linhaDeLua, #linhaDeEuropa {
     margin-top: 50px;
     margin-left: 25px;
     width: 600px;
 }
 
-#distanciaMarte, #distanciaLua {
+#distanciaMarte, #distanciaLua, #distanciaEuropa {
     font-size: 25px;
     margin-left: 25px;
     margin-top: 20px;
     font-family: sans-serif;
 }
 
-#numeroDistanciaMarte, #numeroDistanciaLua {
+#numeroDistanciaMarte, #numeroDistanciaLua, #numeroDistanciaEuropa {
     font-size: 32px;
     margin-left: 25px;
     margin-top: 10px;
@@ -186,14 +186,14 @@ main h1 {
     color: white;
 }
 
-#TempoParaMarte, #TempoParaLua {
+#TempoParaMarte, #TempoParaLua, #TempoParaEuropa {
     font-size: 25px;
     margin-left: 320px;
     margin-top: -77px;
     font-family: sans-serif;
 }
 
-#tempoMarte, #tempoLua {
+#tempoMarte, #tempoLua, #tempoEuropa {
     font-size: 32px;
     margin-left: 420px;
     margin-top: 10px;
@@ -202,6 +202,6 @@ main h1 {
 
 }
 
-#LuaCabecalho {
+#LuaCabecalho, #EuropaCabecalho {
     margin-top: 149px;
 }
