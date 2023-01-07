@@ -124,7 +124,7 @@ main h1 {
     color: white;
 }
 
-#marte {
+#marte, #Lua {
     margin-top: 100px;
     margin-left: 300px;
 }
@@ -137,48 +137,48 @@ main h1 {
     color: lightgray;
 }
 
-#nomeDosDestino {
+#nomeDosDestino, #nomeDosDestinoLua {
     font-size: 30px;
 }
 
-#nomeDosDestino ul li {
+#nomeDosDestino ul li, #nomeDosDestinoLua ul li {
     display: inline-block;
     margin: 20px;
     margin-top: 100px;
 }
 
-#nomeDosDestino ul li:last-child {
+#nomeDosDestino ul li:last-child{
     margin-right: 400px;
 }
 
-#tituloMarte {
+#tituloMarte, #tituloLua {
     font-size: 120px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 25px;
     margin-left: 30px;
 }
 
-#descricaoParaMarte {
+#descricaoParaMarte, #descricaoParaLua {
     font-size: 30px;
     width: 600px;
     text-align: justify;
     margin-left: 25px;
 }
 
-#linhaDeMarte {
+#linhaDeMarte, #linhaDeLua {
     margin-top: 50px;
     margin-left: 25px;
     width: 600px;
 }
 
-#distanciaMarte {
+#distanciaMarte, #distanciaLua {
     font-size: 25px;
     margin-left: 25px;
     margin-top: 20px;
     font-family: sans-serif;
 }
 
-#numeroDistanciaMarte {
+#numeroDistanciaMarte, #numeroDistanciaLua {
     font-size: 32px;
     margin-left: 25px;
     margin-top: 10px;
@@ -186,18 +186,22 @@ main h1 {
     color: white;
 }
 
-#TempoParaMarte {
+#TempoParaMarte, #TempoParaLua {
     font-size: 25px;
     margin-left: 320px;
     margin-top: -77px;
     font-family: sans-serif;
 }
 
-#tempoMarte {
+#tempoMarte, #tempoLua {
     font-size: 32px;
     margin-left: 420px;
     margin-top: 10px;
     font-family: sans-serif;
     color: white;
 
+}
+
+#LuaCabecalho {
+    margin-top: 149px;
 }
