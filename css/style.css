@@ -241,7 +241,7 @@ main h1 {
     margin-left: 200px;
 }
 
-#engenheiraImg, #comandanteImg, #pilotoImg {
+#engenheiraImg, #comandanteImg, #pilotoImg, #especialistaImg {
     float: right;
     margin-top: -508px;
     margin-right: 150px;
@@ -253,6 +253,10 @@ main h1 {
 
 #pilotoImg {
     margin-top: -604px;
+}
+
+#especialistaImg {
+    margin-top: -548px;
 }
 
 #botoesTripulacao {
