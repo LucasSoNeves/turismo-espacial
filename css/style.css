@@ -241,10 +241,14 @@ main h1 {
     margin-left: 200px;
 }
 
-#engenheiraImg {
+#engenheiraImg, #comandanteImg {
     float: right;
     margin-top: -508px;
     margin-right: 150px;
+}
+
+#comandanteImg {
+    margin-top: -608px;
 }
 
 #botoesTripulacao {
@@ -266,6 +270,19 @@ main h1 {
     border-radius: 360px;
 }
 
-#engenheira {
+#fundoBotaoTripulacao {
     background-color: rgb(100, 104, 94);
+}
+
+#tripulacaoCabecalho {
+    float: right;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+#tripulacao1 {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
