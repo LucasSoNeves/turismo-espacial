@@ -241,7 +241,7 @@ main h1 {
     margin-left: 200px;
 }
 
-#engenheiraImg, #comandanteImg {
+#engenheiraImg, #comandanteImg, #pilotoImg {
     float: right;
     margin-top: -508px;
     margin-right: 150px;
@@ -249,6 +249,10 @@ main h1 {
 
 #comandanteImg {
     margin-top: -608px;
+}
+
+#pilotoImg {
+    margin-top: -604px;
 }
 
 #botoesTripulacao {
@@ -276,8 +280,12 @@ main h1 {
 
 #tripulacaoCabecalho {
     float: right;
-    margin-top: 0px;
     margin-left: 300px;
+}
+
+#tripulacaoCabecalho1 {
+    float: right;
+    margin-right: -665px;
 }
 
 #tripulacao1 {
