@@ -205,3 +205,67 @@ main h1 {
 #LuaCabecalho, #EuropaCabecalho, #TitanCabecalho {
     margin-top: 149px;
 }
+
+#destinos1 {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -148px;
+}
+
+#conteudoTripulacao {
+    margin-top: -200px;
+}
+
+#tituloConteudoTripulacao {
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    color: lightgray;
+    margin-left: 190px;
+}
+
+#palavraGrandeConteudoTripulacao {
+    font-size: 100px;
+    color: white;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#continuacaoTextoConteudoTripulacao {
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    color: lightgray;
+    width: 600px;
+    text-align: justify;
+    margin-left: 200px;
+}
+
+#engenheiraImg {
+    float: right;
+    margin-top: -508px;
+    margin-right: 150px;
+}
+
+#botoesTripulacao {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+#botoesTripulacao ul {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.tripulacaoMembros {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 360px;
+}
+
+#engenheira {
+    background-color: rgb(100, 104, 94);
+}
