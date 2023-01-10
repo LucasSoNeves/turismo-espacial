@@ -214,25 +214,33 @@ main h1 {
     margin-top: -148px;
 }
 
-#conteudoTripulacao {
+#conteudoTripulacao, #conteudoTecnologia {
     margin-top: -200px;
 }
 
-#tituloConteudoTripulacao {
+#conteudoTecnologia {
+    margin-left: 50px;
+}
+
+#tituloConteudoTripulacao, #tituloConteudoTecnologia {
     font-size: 50px;
     font-family: 'Amatic SC', cursive;
     color: lightgray;
     margin-left: 190px;
 }
 
-#palavraGrandeConteudoTripulacao {
+#palavraGrandeConteudoTripulacao, #palavraGrandeConteudoTecnologia {
     font-size: 100px;
     color: white;
     margin-left: 200px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#continuacaoTextoConteudoTripulacao {
+#palavraGrandeConteudoTecnologia {
+    font-size: 80px;
+}
+
+#continuacaoTextoConteudoTripulacao, #continuacaoTextoConteudoTecnologia {
     font-size: 40px;
     font-family: 'Amatic SC', cursive;
     color: lightgray;
@@ -241,7 +249,7 @@ main h1 {
     margin-left: 200px;
 }
 
-#engenheiraImg, #comandanteImg, #pilotoImg, #especialistaImg {
+#engenheiraImg, #comandanteImg, #pilotoImg, #especialistaImg, #LancadorImg {
     float: right;
     margin-top: -508px;
     margin-right: 150px;
@@ -257,6 +265,10 @@ main h1 {
 
 #especialistaImg {
     margin-top: -548px;
+}
+
+#LancadorImg {
+    margin-top: -504px;
 }
 
 #botoesTripulacao {
@@ -287,14 +299,57 @@ main h1 {
     margin-left: 300px;
 }
 
-#tripulacaoCabecalho1 {
+#tripulacaoCabecalho1, #tecnologiaCabecalho {
     float: right;
     margin-right: -665px;
 }
 
-#tripulacao1 {
+#tripulacao1, #tecnologia {
     background-image: url("../assets/crew/background-crew-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+#tecnologia {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+}
+
+#botoesTecnologia {
+    margin-left: 80px;
+    margin-top: -450px;
+}
+
+#botoesTecnologia ul {
+    list-style: none;
+}
+
+.botoesParteDaTecnologia {
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    cursor: pointer;
+    color: white;
+    margin: 15px;
+}
+
+#fundoDoBotaoTecnologia {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#imgFoguete {
+    width: 600px;
+    height: 600px;
+    margin-right: -100px;
+}
+
+#fundoBotoesInativos {
+    background-color: transparent;
+    border: 1px dashed lightgray;
+    color: lightgray;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
 }
