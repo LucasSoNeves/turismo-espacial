@@ -316,7 +316,11 @@ main h1 {
 }
 
 #tecnologia1 {
-    margin-top: 95px;
+    margin-top: 96px;
+}
+
+#tecnologia2 {
+    margin-top: 199px;
 }
 
 #botoesTecnologia {
@@ -357,7 +361,14 @@ main h1 {
     height: 600px;
 }
 
-#CapsulaImg {
+#imgPort {
+    margin-right: -100px;
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+}
+
+#CapsulaImg, #PortImg {
     float: right;
     margin-right: 150px;
     margin-top: -504px;
