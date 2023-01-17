@@ -7,6 +7,10 @@ body {
     overflow-x: hidden;
 }
 
+.secoes:not(:first-child) {
+    display: none;
+}
+
 #home {
     background-image: url("../assets/home/background-home-desktop.jpg");
     background-repeat: no-repeat;
