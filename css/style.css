@@ -381,3 +381,19 @@ main h1 {
     font-size: 40px;
     font-family: 'Amatic SC', cursive;
 }
+
+.bottomLine {
+    text-decoration: underline 3px lightgray;
+}
+
+#destinosParte2, #destinosParte3, #destinosParte4 {
+    margin-top: -149px;
+}
+
+#tecnologiaParte2 {
+    margin-top: -95px;
+}
+
+#tecnologiaParte3 {
+    margin-top: -197px;
+}
