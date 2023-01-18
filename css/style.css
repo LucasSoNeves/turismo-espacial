@@ -7,9 +7,9 @@ body {
     overflow-x: hidden;
 }
 
-.secoes:not(:first-child) {
+/*.secoes:not(:first-child) {
     display: none;
-}
+}*/
 
 #home {
     background-image: url("../assets/home/background-home-desktop.jpg");
@@ -103,6 +103,13 @@ main h1 {
     border: 0px;
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
+}
+
+#explorar:hover {
+    background-image: radial-gradient(lightgray, rgb(87, 84, 84));
+    color: white;
+    transition: 1s;
+    border: 1px dashed rgb(187, 184, 184);
 }
 
 #destinos {
@@ -400,4 +407,40 @@ main h1 {
 
 #tecnologiaParte3 {
     margin-top: -197px;
+}
+
+#botHome, #botTripulacao, #botTecnologias, #botHome1, #botTripulacao1, #botTecnologias1, #botHome2, #botTripulacao2, #botTecnologias2, #botHome3, #botTripulacao3, #botTecnologias3 {
+    font-size: 23px;
+    background-color: transparent;
+    color: lightgray;
+    border: none;
+    font-family: sans-serif;
+}
+
+#botHome:hover, #botTripulacao:hover, #botTecnologias:hover, #botHome1:hover, #botTripulacao1:hover, #botTecnologias1:hover, #botHome2:hover, #botTripulacao2:hover, #botTecnologias2:hover, #botHome3:hover, #botTripulacao3:hover, #botTecnologias3:hover {
+    cursor: pointer;
+    color: lightgray;
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 5px;
+    margin-top: -5px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#botLua, #botEuropa, #botTitan, #botMarte1, #botEuropa1, #botTitan1, #botLua2, #botMarte2, #botTitan2, #botLua3, #botMarte3, #botEuropa3 {
+    font-size: 30px;
+    font-family: serif;
+    background-color: transparent;
+    color: lightgray;
+    border: none;
+}
+
+#botLua:hover, #botEuropa:hover, #botTitan:hover, #botMarte1:hover, #botEuropa1:hover, #botTitan1:hover, #botLua2:hover, #botMarte2:hover, #botTitan2:hover, #botLua3:hover, #botMarte3:hover, #botEuropa3:hover {
+    cursor: pointer;
+    color: lightgray;
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 5px;
+    margin-top: -5px;
+    transition: 0.5s;
+    border-radius: 5px;
 }
