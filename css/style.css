@@ -409,7 +409,10 @@ main h1 {
     margin-top: -197px;
 }
 
-#botHome, #botTripulacao, #botTecnologias, #botHome1, #botTripulacao1, #botTecnologias1, #botHome2, #botTripulacao2, #botTecnologias2, #botHome3, #botTripulacao3, #botTecnologias3 {
+#botHome, #botHome1, #botHome2, #botHome3, #botHome4, #botHome5, #botHome6, #botHome7, #botHome8, #botHome9, #botHome10, 
+#botDestinos, #botDestinos1, #botDestinos2, #botDestinos3, #botDestinos4, #botDestinos5, #botDestinos6, 
+#botTripulacao, #botTripulacao1, #botTripulacao2, #botTripulacao3, #botTripulacao4, #botTripulacao5, #botTripulacao6,
+#botTecnologias, #botTecnologias1,   #botTecnologias2, #botTecnologias3,  #botTecnologias4, #botTecnologias5, #botTecnologias6, #botTecnologias7 {
     font-size: 23px;
     background-color: transparent;
     color: lightgray;
@@ -417,7 +420,10 @@ main h1 {
     font-family: sans-serif;
 }
 
-#botHome:hover, #botTripulacao:hover, #botTecnologias:hover, #botHome1:hover, #botTripulacao1:hover, #botTecnologias1:hover, #botHome2:hover, #botTripulacao2:hover, #botTecnologias2:hover, #botHome3:hover, #botTripulacao3:hover, #botTecnologias3:hover {
+#botHome:hover, #botHome1:hover, #botHome2:hover, #botHome3:hover, #botHome4:hover, #botHome5:hover, #botHome6:hover, #botHome7:hover, #botHome8:hover, #botHome9:hover, #botHome10:hover,
+#botDestinos:hover, #botDestinos1:hover, #botDestinos2:hover, #botDestinos3:hover, #botDestinos4:hover, #botDestinos5:hover, #botDestinos6:hover, 
+#botTripulacao:hover, #botTripulacao1:hover, #botTripulacao2:hover, #botTripulacao3:hover, #botTripulacao4:hover, #botTripulacao5:hover, #botTripulacao6:hover, 
+#botTecnologias:hover, #botTecnologias1:hover, #botTecnologias2:hover, #botTecnologias3:hover, #botTecnologias4:hover, #botTecnologias5:hover, #botTecnologias6:hover, #botTecnologias7:hover {
     cursor: pointer;
     color: lightgray;
     background-color: rgba(255, 255, 255, 0.123);
@@ -427,7 +433,7 @@ main h1 {
     border-radius: 5px;
 }
 
-#botLua, #botEuropa, #botTitan, #botMarte1, #botEuropa1, #botTitan1, #botLua2, #botMarte2, #botTitan2, #botLua3, #botMarte3, #botEuropa3 {
+#botLua, #botLua2, #botLua3, #botEuropa, #botEuropa1, #botEuropa3 #botTitan, #botTitan1, #botTitan2, #botMarte1, #botMarte2, #botMarte3 {
     font-size: 30px;
     font-family: serif;
     background-color: transparent;
@@ -435,7 +441,9 @@ main h1 {
     border: none;
 }
 
-#botLua:hover, #botEuropa:hover, #botTitan:hover, #botMarte1:hover, #botEuropa1:hover, #botTitan1:hover, #botLua2:hover, #botMarte2:hover, #botTitan2:hover, #botLua3:hover, #botMarte3:hover, #botEuropa3:hover {
+#botLua:hover, #botLua2:hover, #botLua3:hover, #botEuropa:hover, #botEuropa1:hover, #botEuropa3:hover 
+#botTitan:hover,   #botTitan1:hover, #botTitan2:hover,
+#botMarte2:hover, #botMarte1:hover, #botMarte3:hover {
     cursor: pointer;
     color: lightgray;
     background-color: rgba(255, 255, 255, 0.123);
