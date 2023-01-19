@@ -7,9 +7,9 @@ body {
     overflow-x: hidden;
 }
 
-/*.secoes:not(:first-child) {
+.secoes:not(:first-child) {
     display: none;
-}*/
+}
 
 #home {
     background-image: url("../assets/home/background-home-desktop.jpg");
@@ -433,7 +433,7 @@ main h1 {
     border-radius: 5px;
 }
 
-#botLua, #botLua2, #botLua3, #botEuropa, #botEuropa1, #botEuropa3 #botTitan, #botTitan1, #botTitan2, #botMarte1, #botMarte2, #botMarte3 {
+#botLua, #botLua2, #botLua3, #botEuropa, #botEuropa1, #botEuropa3, #botTitan, #botTitan1, #botTitan2, #botMarte1, #botMarte2, #botMarte3 {
     font-size: 30px;
     font-family: serif;
     background-color: transparent;
@@ -441,7 +441,7 @@ main h1 {
     border: none;
 }
 
-#botLua:hover, #botLua2:hover, #botLua3:hover, #botEuropa:hover, #botEuropa1:hover, #botEuropa3:hover 
+#botLua:hover, #botLua2:hover, #botLua3:hover, #botEuropa:hover, #botEuropa1:hover, #botEuropa3:hover, 
 #botTitan:hover,   #botTitan1:hover, #botTitan2:hover,
 #botMarte2:hover, #botMarte1:hover, #botMarte3:hover {
     cursor: pointer;

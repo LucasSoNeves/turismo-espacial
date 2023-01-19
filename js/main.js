@@ -25,11 +25,24 @@ var pagHome = document.getElementById("botHome");
 var pagHome1 = document.getElementById("botHome1");
 var pagHome2 = document.getElementById("botHome2");
 var pagHome3 = document.getElementById("botHome3");
+var pagHome4 = document.getElementById("botHome4");
+var pagHome5 = document.getElementById("botHome5");
+var pagHome6 = document.getElementById("botHome6");
+var pagHome7 = document.getElementById("botHome7");
 
 var Tripulacao1 = document.getElementById("tripulacaoParte1");
+var Tripulacao2 = document.getElementById("tripulacaoParte2");
+var Tripulacao3 = document.getElementById("tripulacaoParte3");
+var Tripulacao4 = document.getElementById("tripulacaoParte4");
 var pagTripulacao1 = document.getElementById("botTripulacao");
+var pagTripulacao2 = document.getElementById("botTripulacao1");
+var pagTripulacao3 = document.getElementById("botTripulacao2");
+var pagTripulacao4 = document.getElementById("botTripulacao3");
 
 var Destinos = document.getElementById("botDestinos");
+var Destinos1 = document.getElementById("botDestinos1");
+var Destinos2 = document.getElementById("botDestinos2");
+var Destinos3 = document.getElementById("botDestinos3");
 
 botaoExplorar.onclick = function() {
     marte.style.display = 'block';
@@ -154,10 +167,22 @@ pagTitan2.onclick = function() {
 
 pagTripulacao1.onclick = function() {
     Tripulacao1.style.display = 'block';
-    titan.style.display = 'none';
-    europa.style.display = 'none';
     marte.style.display = 'none';
+}
+
+pagTripulacao2.onclick = function() {
+    Tripulacao1.style.display = 'block';
     lua.style.display = 'none';
+}
+
+pagTripulacao3.onclick = function() {
+    Tripulacao1.style.display = 'block';
+    europa.style.display = 'none';
+}
+
+pagTripulacao4.onclick = function() {
+    Tripulacao1.style.display = 'block';
+    titan.style.display = 'none';
 }
 
 Destinos.onclick = function() {
