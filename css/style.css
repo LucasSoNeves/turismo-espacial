@@ -301,7 +301,7 @@ main h1 {
     border-radius: 360px;
 }
 
-#fundoBotaoTripulacao {
+#fundoBotaoTripulacao, #fundoBotaoTripulacao1, #fundoBotaoTripulacao2, #fundoBotaoTripulacao3 {
     background-color: rgb(100, 104, 94);
 }
 
@@ -401,12 +401,14 @@ main h1 {
     margin-top: -149px;
 }
 
+
+
 #tecnologiaParte2 {
     margin-top: -95px;
 }
 
 #tecnologiaParte3 {
-    margin-top: -197px;
+    margin-top: -199px;
 }
 
 #botHome, #botHome1, #botHome2, #botHome3, #botHome4, #botHome5, #botHome6, #botHome7, #botHome8, #botHome9, #botHome10, 
