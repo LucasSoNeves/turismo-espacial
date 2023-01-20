@@ -385,10 +385,17 @@ main h1 {
     margin-top: -504px;
 }
 
-.botoesParteDaTecnologia {
+#fundoBotoesInativos, #fundoBotoesInativos1, #fundoBotoesInativos2, #fundoBotoesInativos3, #fundoBotoesInativos4, #fundoBotoesInativos5 {
     background-color: transparent;
     border: 1px dashed lightgray;
     color: lightgray;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#fundoDoBotaoTecnologia, #fundoDoBotaoTecnologia1, #fundoDoBotaoTecnologia2 {
+    background-color: white;
+    color: black;
     font-size: 40px;
     font-family: 'Amatic SC', cursive;
 }
@@ -400,8 +407,6 @@ main h1 {
 #destinosParte2, #destinosParte3, #destinosParte4 {
     margin-top: -149px;
 }
-
-
 
 #tecnologiaParte2 {
     margin-top: -95px;

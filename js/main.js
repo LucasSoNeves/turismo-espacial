@@ -33,6 +33,9 @@ var pagHome4 = document.getElementById("botHome4");
 var pagHome5 = document.getElementById("botHome5");
 var pagHome6 = document.getElementById("botHome6");
 var pagHome7 = document.getElementById("botHome7");
+var pagHome8 = document.getElementById("botHome8");
+var pagHome9 = document.getElementById("botHome9");
+var pagHome10 = document.getElementById("botHome10");
 
 var Tripulacao1 = document.getElementById("tripulacaoParte1");
 var Tripulacao2 = document.getElementById("tripulacaoParte2");
@@ -50,6 +53,9 @@ var Destinos = document.getElementById("botDestinos");
 var Destinos1 = document.getElementById("botDestinos1");
 var Destinos2 = document.getElementById("botDestinos2");
 var Destinos3 = document.getElementById("botDestinos3");
+var Destinos4 = document.getElementById("botDestinos4");
+var Destinos5 = document.getElementById("botDestinos5");
+var Destinos6 = document.getElementById("botDestinos6");
 
 var Tecnologia = document.getElementById("botTecnologias");
 var Tecnologia1 = document.getElementById("botTecnologias1");
@@ -69,6 +75,7 @@ var pagTecnologia4 = document.getElementById("fundoBotoesInativos1");
 var pagTecnologia5 = document.getElementById("fundoBotoesInativos2");
 var pagTecnologia6 = document.getElementById("fundoBotoesInativos3");
 var pagTecnologia7 = document.getElementById("fundoBotoesInativos4");
+var pagTecnologia8 = document.getElementById("fundoBotoesInativos5");
 
 var MostrarTecnologia1 = document.getElementById("tecnologiaParte1");
 var MostrarTecnologia2 = document.getElementById("tecnologiaParte2");
@@ -100,6 +107,8 @@ var fundoBotaoTripulacao = document.getElementById("fundoBotaoTripulacao");
 var Lista = document.getElementById("lista");
 var Lista1 = document.getElementById("lista1");
 var Lista2 = document.getElementById("lista2");
+var Lista3 = document.getElementById("lista3");
+var Lista4 = document.getElementById("lista4");
 
 botaoExplorar.onclick = function() {
     marte.style.display = 'block';
@@ -427,5 +436,67 @@ pagTripulacao7.onclick = function() {
     Tripulacao1.style.display = 'block';
     MostrarTecnologia1.style.display = 'none';
     MostrarTecnologia2.style.display = 'none';
+    MostrarTecnologia3.style.display = 'none';
+}
+
+pagTecnologia3.onclick = function() {
+    MostrarTecnologia2.style.display = 'block';
+    MostrarTecnologia1.style.display = 'none';
+
+    Lista3.style.marginRight = '660px';
+}
+
+pagTecnologia4.onclick = function() {
+    MostrarTecnologia3.style.display = 'block';
+    MostrarTecnologia1.style.display = 'none';
+}
+
+pagTecnologia5.onclick = function() {
+    MostrarTecnologia1.style.display = 'block';
+    MostrarTecnologia2.style.display = 'none';
+}
+
+pagTecnologia6.onclick = function() {
+    MostrarTecnologia3.style.display = 'block';
+    MostrarTecnologia2.style.display = 'none';
+}
+
+pagTecnologia7.onclick = function() {
+    MostrarTecnologia1.style.display = 'block';
+    MostrarTecnologia3.style.display = 'none';
+}
+
+pagTecnologia8.onclick = function() {
+    MostrarTecnologia2.style.display = 'block';
+    MostrarTecnologia3.style.display = 'none';
+}
+
+Destinos4.onclick = function() {
+    lua.style.display = 'block';
+    MostrarTecnologia1.style.display = 'none';
+}
+
+Destinos5.onclick = function() {
+    lua.style.display = 'block';
+    MostrarTecnologia2.style.display = 'none';
+}
+
+Destinos6.onclick = function() {
+    lua.style.display = 'block';
+    MostrarTecnologia3.style.display = 'none';
+}
+
+pagHome8.onclick = function() {
+    Home.style.display = 'block';
+    MostrarTecnologia1.style.display = 'none';
+}
+
+pagHome9.onclick = function() {
+    Home.style.display = 'block';
+    MostrarTecnologia2.style.display = 'none';
+}
+
+pagHome10.onclick = function() {
+    Home.style.display = 'block';
     MostrarTecnologia3.style.display = 'none';
 }
