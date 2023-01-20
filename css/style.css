@@ -385,7 +385,7 @@ main h1 {
     margin-top: -504px;
 }
 
-#fundoBotoesInativos {
+.botoesParteDaTecnologia {
     background-color: transparent;
     border: 1px dashed lightgray;
     color: lightgray;
