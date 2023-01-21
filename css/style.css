@@ -113,7 +113,7 @@ main h1 {
 }
 
 #destinos {
-    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    background-image: url("../assets/destination/space-sky.gif");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -462,6 +462,11 @@ main h1 {
 
 .tituloApresentacaoHome, .palavraEspaco, .textoHome {
     visibility: hidden;
+}
+
+.descricaoParaOsDestinos:hover {
+    transform: rotate(360deg);
+    transition: 1.5s;
 }
 
 #gifEuropa {
