@@ -459,3 +459,16 @@ main h1 {
     transition: 0.5s;
     border-radius: 5px;
 }
+
+.tituloApresentacaoHome, .palavraEspaco, .textoHome {
+    visibility: hidden;
+}
+
+#gifEuropa {
+    margin-left: -10px;
+    margin-top: -110px;
+}
+
+#gifEuropaSumario {
+    margin-top: -130px;
+}

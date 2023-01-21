@@ -500,3 +500,22 @@ pagHome10.onclick = function() {
     Home.style.display = 'block';
     MostrarTecnologia3.style.display = 'none';
 }
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('.tituloApresentacaoHome', {
+    duration: 1500,
+    rotate: { x: 0, y: 0, z: 100},
+    delay: 500,
+})
+
+sr.reveal('.textoHome', {
+    duration: 1500,
+    rotate: { x: 0, y: 0, z: -100 },
+})
+
+sr.reveal('.palavraEspaco', {
+    duration: 2000,
+    rotate: { x: 0, y: 100, z: 0},
+    delay: 200,
+})
