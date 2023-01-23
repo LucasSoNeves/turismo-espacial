@@ -67,13 +67,22 @@ hr {
     padding-left: 50px;
 }
 
+#apresentacao {
+    width: 600px;
+}
+
 main h1 {
     color: lightgray;
     font-family: 'Amatic SC', cursive;
     font-weight: 100;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 300px;
     margin-left: 300px;
+}
+
+.primeiraApresentacao {
+	-webkit-animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 #espaco {
@@ -150,6 +159,8 @@ main h1 {
 
 .nomeDosDestino {
     font-size: 30px;
+    -webkit-animation: bounce-top 1s both;
+    animation: bounce-top 1s both;
 }
 
 .nomeDosDestino ul li {
@@ -167,6 +178,9 @@ main h1 {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 25px;
     margin-left: 30px;
+
+    -webkit-animation: scale-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .descricaoParaOsDestinos {
@@ -291,6 +305,21 @@ main h1 {
     display: inline-block;
     margin-left: 20px;
     list-style: none;
+}
+
+.tituloConteudos {
+	-webkit-animation: bounce-in-right 1.5s both;
+	animation: bounce-in-right 1.5s both;
+}
+
+.palavraGrande {
+    -webkit-animation: bounce-in-left 2s both;
+    animation: bounce-in-left 2s both;
+}
+
+.continuacaoTextoConteudos {
+	-webkit-animation: flicker-in-1 2s linear both;
+	animation: flicker-in-1 2s linear both;
 }
 
 .tripulacaoMembros {
